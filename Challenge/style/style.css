@@ -1,5 +1,5 @@
 body{
-	background-color: red;
+	background-color: #045D2B;
 	margin: 0;
 	padding: 3vw 5vw 3vw 5vw;
 }
@@ -13,7 +13,7 @@ body{
 	border: 5px solid rgba(0,0,0,0.8);
 	width: 25vw;
 	height: 40vw;
-	background-color: green;
+	background-color: orange;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -31,7 +31,7 @@ body{
 	border: 5px solid rgba(0,0,0,0.8);
 	width: 25vw;
 	height: 40vw;
-	background-color: violet;
+	background-color: red;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -42,7 +42,7 @@ body{
 .playerField2{
 	position: relative;
 	transform: skewY(-57deg);
-	margin-top: -20vw;
+	margin-top: -26vw;
 	border: 5px solid black;
 	z-index: 2;
 }
@@ -63,17 +63,20 @@ body{
 	height: 33%;
 	width: 100%;
 }
-#ÜS{
+#UES{
 	font-size: 10vw;
 	color: white;
 	z-index: 3;
+	padding-bottom: 7vw;
 }
 #player1Name{
+	color: white;
 text-align: center;
 font-size: 4vw;
 padding-bottom: 4vw;
 }
 #player2Name{
+	color: white;
 text-align: center;
 font-size: 4vw;
 padding-bottom: 4vw;
@@ -82,4 +85,181 @@ padding-bottom: 4vw;
 	margin: 0;
 	font-size: 2vw;
 	color: white;
+}
+#lgzP2{
+	text-align: end;
+	padding: 2vw;
+	padding-top: 0;
+	color: white;
+	font-size: 3vw;
+}
+#lgzP1{
+	padding: 2vw;
+	color: white;
+	font-size: 3vw;
+}
+
+@media only screen and (max-width: 500px) {
+	.main{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	justify-content: space-between;
+}
+.player1{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: orange;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.player2{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: blue;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.playField{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: red;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	z-index: 1;
+}
+
+.playerField2{
+    position: relative;
+    transform: skewY(-23deg);
+    margin-top: -20vw;
+    border: 5px solid black;
+    z-index: 2;}
+
+#lgzP2{
+    text-align: end;
+    padding-top: 0;
+    color: white;
+    font-size: 7vw;
+    margin-top: -8vw;
+}
+#lgzP1{
+	padding: 2vw;
+	color: white;
+	font-size: 7vw;
+}
+
+#player1Name{
+	color: white;
+text-align: center;
+font-size: 8vw;
+padding-bottom: 4vw;
+}
+#player2Name{
+	color: white;
+text-align: center;
+font-size: 8vw;
+padding-bottom: 4vw;
+}
+.para{
+	margin: 0;
+	font-size: 4vw;
+	color: white;
+}
+
+#UES{
+	font-size: 10vw;
+	color: white;
+	z-index: 3;
+	padding-bottom: 13vw;
+}
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.main{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	justify-content: space-between;
+}
+.player1{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: orange;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.player2{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: blue;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.playField{
+	border: 5px solid rgba(0,0,0,0.8);
+	width: 100%;
+	height: 40vw;
+	background-color: red;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	z-index: 1;
+}
+
+.playerField2{
+    position: relative;
+    transform: skewY(-23deg);
+    margin-top: -20vw;
+    border: 5px solid black;
+    z-index: 2;}
+
+#lgzP2{
+    text-align: end;
+    padding-top: 0;
+    color: white;
+    font-size: 7vw;
+    margin-top: -8vw;
+}
+#lgzP1{
+	padding: 2vw;
+	color: white;
+	font-size: 7vw;
+}
+
+#player1Name{
+	color: white;
+text-align: center;
+font-size: 8vw;
+padding-bottom: 4vw;
+}
+#player2Name{
+	color: white;
+text-align: center;
+font-size: 8vw;
+padding-bottom: 4vw;
+}
+.para{
+	margin: 0;
+	font-size: 4vw;
+	color: white;
+}
+
+#UES{
+	font-size: 10vw;
+	color: white;
+	z-index: 3;
+	padding-bottom: 13vw;
+}
 }
