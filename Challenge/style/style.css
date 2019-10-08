@@ -35,5 +35,51 @@ body{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	transform: skewY(-12deg);
+	z-index: 1;
+	
+}
+
+.playerField2{
+	position: relative;
+	transform: skewY(-57deg);
+	margin-top: -20vw;
+	border: 5px solid black;
+	z-index: 2;
+}
+.oben{
+	height: 33%;
+	width: 100%;
+}
+.mitte{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 33%;
+	width: 100%;
+	
+}
+.unten{
+	height: 33%;
+	width: 100%;
+}
+#ÜS{
+	font-size: 10vw;
+	color: white;
+	z-index: 3;
+}
+#player1Name{
+text-align: center;
+font-size: 4vw;
+padding-bottom: 4vw;
+}
+#player2Name{
+text-align: center;
+font-size: 4vw;
+padding-bottom: 4vw;
+}
+.para{
+	margin: 0;
+	font-size: 2vw;
+	color: white;
 }
