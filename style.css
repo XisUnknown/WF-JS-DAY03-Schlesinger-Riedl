@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0 5em 0 5em;
+}
+.raw{
+	width: 100%;
+	height: 80em;
+	background-color: grey;
+	border: 5px solid black;
+}
+.überschrift{
+	display: flex;
+	justify-content: center;
+}
+.raw2{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 10em;
+	background-color: grey;
+	padding-top: 10em;
+
+}
+.raw1{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 10em;
+	background-color: grey;
+
+}
+.hoB1{
+	background-image: url("https://www.bilderberg.nl/media/filer_public_thumbnails/filer_public/ec/4c/ec4cb66a-ad79-4ade-8404-b746f33f9ba1/europa_hotel_aanzicht2_avond.jpg__2560x0_q85_crop_subsampling-2.jpg");
+	background-size: cover;
+	border: 5px solid black;
+	height: 20em;
+	width: 15em;
+	text-align: center;
+}
+.hoB2{
+	background-image: url("https://www.hotelfuessen.de/media/widgetkit/winter-hotel-fuessen-06014708e4e35e8d3b18c079d28546dd.jpg");
+	background-size: cover;
+	border: 5px solid black;
+	height: 20em;
+	width: 15em;
+	text-align: center;
+}
+.hoB3{
+	background-image: url("https://www.parkhotelleipzig.de/wp-content/uploads/park-hotel-leipzig-eingang-1.jpg");
+	background-size: cover;
+	border: 5px solid black;
+	height: 20em;
+	width: 15em;
+	text-align: center;
+}
+.ho1{
+	border: 5px solid black;
+	height: 22em;
+	width: 15em;
+	text-align: center;
+}
+.ho2{
+	border: 5px solid black;
+	height: 22em;
+	width: 15em;
+	text-align: center;
+}
+.ho3{
+	border: 5px solid black;
+	height: 22em;
+	width: 15em;
+	text-align: center;
+}
+.ergebnis{
+	display: flex;
+	justify-content: center;
+	margin-top: -27em;
+}
+#button1{
+	width: 12em;
+	height: 2em;
+	border-radius: 1em;
+	color: white;
+	background-color: green;
+	border: none;
+}
+#button2{
+	width: 12em;
+	height: 2em;
+	border-radius: 1em;
+	color: white;
+	background-color: green;
+	border: none;
+}
+#button3{
+	width: 12em;
+	height: 2em;
+	border-radius: 1em;
+	color: white;
+	background-color: green;
+	border: none;
+}
+#someId{
+	width: 12em;
+	height: 2em;
+	border-radius: 1em;
+	color: white;
+	background-color: green;
+	border: none;
+}
+#butto{
+	color: green;
+}

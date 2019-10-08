@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p id="textfeld"></p>
+
+
+	<div class="raw">
+	<div class="überschrift">
+		<h1>Choose your Hotel</h1>
+	</div>
+
+		<div class="raw1">
+			<div class="hoB1"></div>
+			<div class="hoB2"></div>
+			<div class="hoB3"></div>
+		</div>	
+		<div class="raw2">
+		<div class="ho1">
+			<h1>Hilton</h1>
+			<p>how many days do you want to stay?</p>
+			<input type="number" id="i1" placeholder="Enter number">
+			<br><br>
+			<label>which room?
+				<select id="rooms" name="room">
+					<option>Please, enter your room </option>
+					<option value="1" id="1">Single Room</option>
+					<option value="2" id="2">Big Room</option>
+					<option value="3" id="3">Extra Big Room</option>
+				</select>
+			</label>
+			<br><br>
+			<button type="submit" onClick="hotelHilton.checkAvailability()" id="button1"  value="submit">Check availability</button>
+			<p id="erg1">RESULT</p>
+			<div id="butto"></div>
+			
+		</div>
+		<div class="ho1">
+			<h1>Arcotel</h1>
+			<p>how many days do you want to stay?</p>
+			<input type="number" id="i2" placeholder="Enter number">
+			<br><br>
+			<label>which room?
+				<select id="rooms" name="room">
+					<option>Please, enter your room </option>
+					<option value="1" id="1">Single Room</option>
+					<option value="2" id="2">Big Room</option>
+					<option value="3" id="3">Extra Big Room</option>
+				</select>
+			</label>
+			<br><br>
+			<button type="submit" onClick="hotelArcotel.checkAvailability()" id="button2"  value="submit">Check availability</button>
+			<p id="erg2">RESULT</p>
+			<div id="butt"></div>
+		</div>
+		<div class="ho1">
+			<h1>Sven´s</h1>
+			<p>how many days do you want to stay?</p>
+			<input type="number" id="i3" placeholder="Enter number">
+			<br><br>
+			<label>which room?
+				<select id="rooms" name="room">
+					<option>Please, enter your room </option>
+					<option value="1" id="1">Single Room</option>
+					<option value="2" id="2">Big Room</option>
+					<option value="3" id="3">Extra Big Room</option>
+				</select>
+			</label>
+			<br><br>
+			<button type="submit" onClick="hotelSven.checkAvailability()" id="button3"  value="submit">Check availability</button>
+			<p id="erg3">RESULT</p>
+			<div id="but"></div>
+		</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
